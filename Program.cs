@@ -14,6 +14,8 @@ namespace Scruffy
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Scruffy V0");
+            
             string config = File.ReadAllText(@"./server.cscru");
             
             Console.WriteLine("Loaded server.cscru");
