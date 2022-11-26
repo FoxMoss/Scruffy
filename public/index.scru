@@ -1,0 +1,22 @@
+{scruffy}
+a = "1</br>"
+{scruffy}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+</head>
+<body>
+    {scruffy}
+    scruffy:echo("anything</br>")
+    scruffy:echo(a)
+    for i = 10,1,-1 
+    do 
+        scruffy:echo(i .. "</br>") 
+    end
+    {scruffy}
+</body>
+</html>
